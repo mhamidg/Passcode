@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = 'Passcode'
-  s.version = '1.0'
-  s.platform     = :ios
+  s.version = '1.1'
+  s.platform = :ios
   s.license = 'MIT'
   s.summary = 'Generate A Passcode'
   s.homepage = 'https://github.com/mhamidg/Passcode'
