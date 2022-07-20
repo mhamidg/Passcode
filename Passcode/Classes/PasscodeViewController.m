@@ -81,7 +81,7 @@
                 } else {
                     // Fallback on earlier versions
                 }
-                button.tintColor = [UIColor whiteColor];
+                button.contentTintColor = [UIColor whiteColor];
                 break;
         }
         

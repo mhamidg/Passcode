@@ -33,6 +33,7 @@ enum CodeViewType {
 
 @property (nonatomic, readonly) NSString *value;
 
+- (void)setContentTintColor:(UIColor *)color;
 - (void)setContentBackgroundColor:(UIColor *)color;
 
 @end

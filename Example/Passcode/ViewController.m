@@ -24,7 +24,7 @@
     controller.titleImage = [UIImage systemImageNamed:@"multiply.circle.fill"];
     controller.titleText = @"Bok Wallet";
     controller.detailTitleText = @"Please set transition password";
-    controller.isSecuredPassword = true;
+    controller.isSecuredPassword = false;
     controller.blurEffactOpacity = 0.9;
     controller.gradientColors = @[[UIColor colorWithRed:119/255. green:165/255. blue:233/255. alpha:1.0], [UIColor colorWithRed:188/255. green:206/255. blue:240/255. alpha:1.0], [UIColor colorWithRed:181/255. green:207/255. blue:239/255. alpha:1.0]];
     controller.modalPresentationStyle = UIModalPresentationOverCurrentContext;

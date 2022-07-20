@@ -53,6 +53,10 @@
     [self.button setTitleColor:titleColor forState:UIControlStateNormal];
 }
 
+- (void)setContentTintColor:(UIColor *)color {
+    [self.button setTintColor:color];
+}
+
 - (void)setContentBackgroundColor:(UIColor *)color {
     [self.button setBackgroundColor:color];
 }
@@ -88,6 +92,8 @@
         [_button setBackgroundColor:self.faceColor];
         [_button setFrame:CGRectInset(self.bounds, 4, 4)];
         [_button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_button addTarget:self action:@selector(buttonCancel:) forControlEvents:UIControlEventTouchDragExit];
+        [_button addTarget:self action:@selector(buttonCancel:) forControlEvents:UIControlEventTouchCancel];
         [_button addTarget:self action:@selector(buttonDown:) forControlEvents:UIControlEventTouchDown];
         [_button addTarget:self action:@selector(buttonTap:) forControlEvents:UIControlEventTouchUpInside];
         
@@ -105,6 +111,12 @@
     _button.layer.cornerRadius = _button.frame.size.width / 2;
     _button.layer.borderColor = [[UIColor systemGrayColor] CGColor];
     _button.layer.borderWidth = 0.5;
+}
+
+- (void)buttonCancel:(UIButton *)sender {
+    if (self.type != CodeViewTypeDelete) {
+        [sender setBackgroundColor:self.faceColor];
+    }
 }
 
 - (void)buttonDown:(UIButton *)sender {
