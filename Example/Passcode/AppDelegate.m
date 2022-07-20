@@ -1,14 +1,13 @@
 //
-//  PAppDelegate.m
+//  AppDelegate.m
 //  Passcode
 //
-//  Created by mhamidg on 07/20/2022.
-//  Copyright (c) 2022 mhamidg. All rights reserved.
+//  Created by Hamid Farooq on 07/20/2022.
 //
 
-#import "PAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation PAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {

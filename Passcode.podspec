@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'Passcode'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of Passcode.'
+  s.summary          = 'Generate and Forgot Handle Passcode.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,9 +32,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'Passcode/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'Passcode' => ['Passcode/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'Resources' => ['Passcode/Classes/*.xib']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E6CAC6E2887DFD60082C836 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CAC6C2887DFD60082C836 /* ViewController.m */; };
 		561A97061EB25772E58A770C /* Pods_Passcode_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7809CD42563D64752D8FFBAC /* Pods_Passcode_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* PAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* PAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* PViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* PViewController.m */; };
+		6003F59E195388D20070C39A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* AppDelegate.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,11 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E6CAC6C2887DFD60082C836 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E6CAC6D2887DFD60082C836 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		12D6079BC2235DE490F72AD3 /* Pods-Passcode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passcode_Example.release.xcconfig"; path = "Target Support Files/Pods-Passcode_Example/Pods-Passcode_Example.release.xcconfig"; sourceTree = "<group>"; };
 		1F361FECD43068C15F36E71E /* Pods_Passcode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Passcode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		47B30C17373E575772E449D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		47B30C17373E575772E449D7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4E1BB8E4B77C58C360020D1C /* Pods-Passcode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passcode_Example.debug.xcconfig"; path = "Target Support Files/Pods-Passcode_Example/Pods-Passcode_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5C96591B74178379B8370606 /* Passcode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Passcode.podspec; path = ../Passcode.podspec; sourceTree = "<group>"; };
+		5C96591B74178379B8370606 /* Passcode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Passcode.podspec; path = ../Passcode.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58A195388D20070C39A /* Passcode_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passcode_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -50,10 +52,8 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* Passcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Passcode-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* PAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* PAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* PViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* PViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* Passcode_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Passcode_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -63,7 +63,7 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7809CD42563D64752D8FFBAC /* Pods_Passcode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Passcode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A02D2B13BE0D4718BC6C39E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7A02D2B13BE0D4718BC6C39E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A24A637E9D7D6A532EFC829C /* Pods-Passcode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passcode_Tests.release.xcconfig"; path = "Target Support Files/Pods-Passcode_Tests/Pods-Passcode_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EABAEF4AC9BEAF2647D908A0 /* Pods-Passcode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passcode_Tests.debug.xcconfig"; path = "Target Support Files/Pods-Passcode_Tests/Pods-Passcode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				EABAEF4AC9BEAF2647D908A0 /* Pods-Passcode_Tests.debug.xcconfig */,
 				A24A637E9D7D6A532EFC829C /* Pods-Passcode_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,12 +143,12 @@
 		6003F593195388D20070C39A /* Example for Passcode */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* PAppDelegate.h */,
-				6003F59D195388D20070C39A /* PAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* PViewController.h */,
-				6003F5A6195388D20070C39A /* PViewController.m */,
+				6003F59C195388D20070C39A /* AppDelegate.h */,
+				6003F59D195388D20070C39A /* AppDelegate.m */,
+				0E6CAC6D2887DFD60082C836 /* ViewController.h */,
+				0E6CAC6C2887DFD60082C836 /* ViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,8 +364,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* PAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* PViewController.m in Sources */,
+				6003F59E195388D20070C39A /* AppDelegate.m in Sources */,
+				0E6CAC6E2887DFD60082C836 /* ViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
