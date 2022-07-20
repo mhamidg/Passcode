@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = 'Passcode'
-  s.version = 1.0'
+  s.version = '1.0'
 
   s.ios.deployment_target = '9.0'
 
