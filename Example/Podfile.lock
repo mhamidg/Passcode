@@ -1,0 +1,16 @@
+PODS:
+  - Passcode (0.1.0)
+
+DEPENDENCIES:
+  - Passcode (from `../`)
+
+EXTERNAL SOURCES:
+  Passcode:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Passcode: 9cf97adebeb82ec6668792628c4ad25abc4600f2
+
+PODFILE CHECKSUM: a6d12bed30cd844fccf90a56845878eb0977a985
+
+COCOAPODS: 1.11.3

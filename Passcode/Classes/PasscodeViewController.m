@@ -33,7 +33,9 @@
 }
 
 - (id)init {
-    if (self = [super initWithNibName:@"PasscodeViewController" bundle:nil]) {
+    NSBundle *frameworkBundle = [NSBundle bundleForClass:PasscodeViewController.self];
+    NSString *path = [NSBundle pathForResource:@"Resources" ofType:@"bundle" inDirectory:frameworkBundle.resourcePath];
+    if (self = [super initWithNibName:@"PasscodeViewController" bundle:[NSBundle bundleWithPath:path]]) {
         
     }
     return self;
@@ -73,8 +75,12 @@
                 break;
             default:
                 button.type = CodeViewTypeDelete;
-                button.image = [UIImage systemImageNamed:@"delete.backward"];
-                button.contentBackgroundColor = [UIColor separatorColor];
+                if (@available(iOS 13.0, *)) {
+                    button.image = [UIImage systemImageNamed:@"delete.backward"];
+                    button.contentBackgroundColor = [UIColor separatorColor];
+                } else {
+                    // Fallback on earlier versions
+                }
                 button.tintColor = [UIColor whiteColor];
                 break;
         }

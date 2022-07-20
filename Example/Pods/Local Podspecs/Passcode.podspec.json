@@ -1,0 +1,27 @@
+{
+  "name": "Passcode",
+  "version": "0.1.0",
+  "summary": "Generate and Forgot Handle Passcode.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mhamidg/Passcode",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mhamidg": "mhamidg@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/mhamidg/Passcode.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "Passcode/Classes/**/*",
+  "resource_bundles": {
+    "Resources": [
+      "Passcode/Classes/*.xib"
+    ]
+  }
+}

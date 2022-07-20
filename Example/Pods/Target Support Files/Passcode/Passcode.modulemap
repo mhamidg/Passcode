@@ -1,0 +1,6 @@
+framework module Passcode {
+  umbrella header "Passcode-umbrella.h"
+
+  export *
+  module * { export * }
+}

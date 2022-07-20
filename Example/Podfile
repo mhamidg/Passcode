@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Passcode_Example' do
+  pod 'Passcode', :path => '../'
+
+  target 'Passcode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

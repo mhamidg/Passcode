@@ -1,0 +1,6 @@
+framework module Pods_Passcode_Tests {
+  umbrella header "Pods-Passcode_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
